@@ -195,6 +195,8 @@ ls -lh
 ```
 
 > What changed?
+__the file size is listed as kb.  Cleans up the sizes for larger files__
+
 
 If instead copying we just want to change the name of a file, we can do:
 
