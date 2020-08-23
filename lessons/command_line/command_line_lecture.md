@@ -120,6 +120,7 @@ Now nothing shows up on the screen. List the files and see if you can tell
 why.
 
 > Hint: we learned how to list all the files up above.
+__it was saved into the working directory__
 
 The greater than says, "put that output into the following file instead."
 
@@ -146,6 +147,7 @@ Nice.
 
 > Let's save the output of the `curl` command to a file called `data.txt`. How
 would we do that?
+__curl https://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/auto-mpg.data > data.txt__
 
 Now that we have the data file, let's learn how to manipulate files.
 
