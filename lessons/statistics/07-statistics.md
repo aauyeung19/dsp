@@ -90,9 +90,9 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 >> In other words P(I|T).  If we had to use Bayes' Theorem, the math would be as follows:
 >> P(I|T) = P(I)P(T|I)/P(T) 
 >> Where: 
-* P(I) is the probability of being an identical twin in the total population: (1/300)
-* P(T|I) is the probability of being a twin given that you are an identical twin: (1/1)
-* P(T) is the probability of being a twin in the total population: (1/300+1/125)
+>> * P(I) is the probability of being an identical twin in the total population: (1/300)
+>> * P(T|I) is the probability of being a twin given that you are an identical twin: (1/1)
+>> * P(T) is the probability of being a twin in the total population: (1/300+1/125)
 
 
 ---
