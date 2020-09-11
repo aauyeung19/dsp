@@ -86,14 +86,14 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
-_The probability that Elvis was an identical twin is __29.41% or 5/17__.  The question can be interpreted as the probability that the brother was identical given that he was a twin. 
-In other words P(I|T).  If we had to use Bayes' Theorem, the math would be as follows:
-P(I|T) = P(I)P(T|I)/P(T) 
-Where: 
+>> The probability that Elvis was an identical twin is __29.41% or 5/17__.  The question can be interpreted as the probability that the brother was identical given that he was a twin.
+>> In other words P(I|T).  If we had to use Bayes' Theorem, the math would be as follows:
+>> P(I|T) = P(I)P(T|I)/P(T) 
+>> Where: 
 
- _* P(I) is the probability of being an identical twin in the total population: (1/300)
- _* P(T|I) is the probability of being a twin given that you are an identical twin: (1/1)
- _* P(T) is the probability of being a twin in the total population: (1/300+1/125)
+>> * P(I) is the probability of being an identical twin in the total population: (1/300)
+>> * P(T|I) is the probability of being a twin given that you are an identical twin: (1/1)
+>> * P(T) is the probability of being a twin in the total population: (1/300+1/125)
 
 
 ---
@@ -101,12 +101,12 @@ Where:
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
-_Frequentist probability is defined by a frequency of events.  The probability of an event defined by frequentist statistics would be determined based on results from multiple trials of the test.  As an example, if we looked at flipping a coin, frequentist statistics would say that the probability of flipping a coin to heads would approach 0.5 after flipping the coin a large number of times.  
-Bayesian statistics determines probability based on experience and past evidence.  Determination of the probability would change based on the past results.  We would determine the probability of a coin flip based on prior experience estimating the probability of the coin flip.  As we get more experience, the past data would change our probability.  
-The two look similar for coin flips but if we use a different example say: The probability that it will rain, say the probability that it will rain on a certain date, the difference is a little clearer. 
+>> Frequentist probability is defined by a frequency of events.  The probability of an event defined by frequentist statistics would be determined based on results from multiple trials of the test.  As an example, if we looked at flipping a coin, frequentist statistics would say that the probability of flipping a coin to heads would approach 0.5 after flipping the coin a large number of times.  
+>> Bayesian statistics determines probability based on experience and past evidence.  Determination of the probability would change based on the past results.  We would determine the probability of a coin flip based on prior experience estimating the probability of the coin flip.  As we get more experience, the past data would change our probability.  
+>> The two look similar for coin flips but if we use a different example say: The probability that it will rain, say the probability that it will rain on a certain date, the difference is a little clearer. 
 
-_Frequentist: To determine the probability it will rain, we would need to recreate identical conditions and repeat the experiment over time to see what the frequency of the results would show.  
-Bayesian:  To determine the probability it will rain, we would look at the historical events of when the conditions were past here to help determine the probability of rain. 
+>> Frequentist: To determine the probability it will rain, we would need to recreate identical conditions and repeat the experiment over time to see what the frequency of the results would show.  
+>> Bayesian:  To determine the probability it will rain, we would look at the historical events of when the conditions were past here to help determine the probability of rain. 
 
 ---
 
